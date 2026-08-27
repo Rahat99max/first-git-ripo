@@ -1,0 +1,89 @@
+Report to Boss=>
+Kids Club
+১. DUE এবং PAID Report দেওয়া, বিশেষ করে PAID Report দেওয়া
+২. মহিন ভাই মাঝে মাঝে Product Transfer List দেয় না
+৩. Local Purchase এর বিল সঠিক সময় পাওয়া যায় না, বিশেষ করে শপ১২৩ এ ৫-৬দিন সময় নেয়
+৪. Shop থেকে WareHouse এ Product নিলে তার লিস্ট দেওয়া 
+৫.
+
+
+
+# DUE and Paid report give to us
+# Transfer list (mohin vai sometimes miss)
+# local purchase information(123shop=> bill,product,
+# Write bill (No next day)
+
+
+Udayan 
+
+
+New Baby Bed side railing/ Foldable Bed Fence / bed rail guard for baby safety 
+ 
+Size: 1.5M, 1.8M, 2M, 2.2M (king/queen size bed)
+
+Design: Dinosaur, Lion, Rabbit, Giraffe
+
+
+
+Address: Kids Club 127 & 123 Shop, DNCC Market , Gulshan 1
+Phone: 01314 361907 
+01778 210106
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Old cost change problem.
+2. Sell from each shop.
+3. show bill by product Model.
+4. Edit sales product. (if possible)
+5. Delete excessive product (if possible)
+6. Purchase list by supplier.
+7. Sales list by selected customer
+8. Negative amount product problem
+9. All product Excel file with Quantity,cost,Price for Print.
+10. Total stock value and cost (14-16,18,PP,zirabow)
+
+11. Dark mode
+12. By MODEL => Bill,Date,Counter,Quantity
+
+
+
+RFL mini = 6pcs total 127 shop
+RFL Ferrari = 2 (127) + 3 (starukul) = 5pcs total
+RFL joy = 6 (127) + 5 (satarkul) = 11pcs total
+
+software=
+mini= 2Pcs Plus
+ferr= 1Pcs Minus 
+
+
+
+
+
+NEW SOFTWARE:
+Software link: 
+https://pos-v2.kidsclubbd.net/back
+
+Admin:
+-------------------------------
+ID: admin@softghor.com
+Password: admin
+
+===================================
+Salesman
+-----------------------------------
+ID: operator@softghor.com
+Password: operator
