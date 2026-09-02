@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table</title>
+    <style>
+        nav li{
+            display: inline;
+            list-style: none;
+        }
+        li a:hover{
+            background-color: cyan;
+        }
+        nav  a{
+            text-decoration: none ;
+        }
+
+/* 4-3 class: Form */
+        form > label{
+            display: block;
+        }
+        table{
+            border-collapse: collapse;
+            padding: 25px;
+        }
+        table th{
+            border: 2px dotted blue;
+        }
+        table td{
+            border: 2px dashed black;
+        }
+
+/* 4-5 class: CSS Flex Layout */
+        .flex-box div{
+            border: 2px dashed lightcoral;
+            width: 200px;
+            height: 50px;
+            background-color: rgb(7, 134, 134);
+           
+        }
+        .flex-box{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: aquamarine;
+        }
+
+
+/* 4-6Class:  */
+        div.parent{
+            background-color: red;
+            height: 50px;
+            
+            display: flex; /* for justify-center: and aalign-items: to work */
+            justify-content: center; /* horaizontal center/right For Child */
+            align-items: end; /* Vertical center/end For Child */
+            gap: 20px;
+            
+        }
+        div .child{
+            background-color: yellow; /* all will yellow  */
+            height: 100px ; /* take 100px altho parent 50px */
+            
+        }
+        
+/* 4-7Class: */
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Module 4: More about  HTML and CSS</h1>
+    </header>
+
+    <video src="imgs/song.mp4" width="200px" controls> video</video>
+    <embed src="imgs/sofghor.txt" type="">
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Blogs</a></li>
+            </ul>
+        </nav>
+
+    <main>
+
+        <section> <h2>4-3Class: HTML Form</h2>
+            <form action="">
+                <label for="nam">Enter Name</label>
+                <input type="text" name="" id="nam">
+
+                <label for=""mail>Enter Email <input type="email" name="" id="mail"></label>
+
+                <!-- <fieldset> <legend> for Gropping -->
+                <fieldset>
+                    <legend>Pitha Info</legend>
+                    <input type="radio" name="pitha" id="chitoy">
+                    <label for="chitoy"> Chitoy</label>
+
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa"> Vapa</label>
+
+                    <textarea name="" id="" cols="40" rows="4"> text area </textarea>
+                </fieldset>
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Reset form">
+            </form>
+            <ul>
+                <li>Form: form</li>
+                <li>fieldset, legend, label, input</li>
+                <li> input type="text/email/ radio/checkbox/ submit/reset</li>
+                <li> textarea(cols="" rows="")</li>
+            </ul>
+        </section>
+
+        <section> <h2>4-4Class: HTML Table</h2>
+            <table>
+                <caption>Student Record</caption>
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>Name</th>
+                        <th>Roll</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kawsar</td>
+                        <td>1151</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ponir</td>
+                        <td>5565</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>total</td>
+                        <td  colspan="2">text</td>
+                        
+                    </tr>
+                    
+                </tfoot>
+            </table>
+            <ul>
+                <li>Table: table =>border-collapse: collapse;</li>
+                <li>Caption: caption</li>
+                <li>Table Head: thead, tr, th th th</li>
+                <li>Table Body: tbody, tr, td,td,td</li>
+                <li>Table Foot: tfoot, tr, td =>rowspan="2" colspan="2"</li>
+                
+            </ul>
+
+        </section>
+
+        <section> <h2>4-5Class: CSS Flex layout</h2>
+            <div class="flex-box">
+                <div>1 this is child</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                
+            </div>
+            <p> parent div=>display:flex; gap:20px; </p>
+            <p>child div=> border:, width:, height:, bg-color:,</p>
+
+        </section>
+
+
+
+        <section> <h2>4-6Class: Horizontal and Vertical center </h2>
+            <div class="parent">
+                <div class="child"> Something</div>
+                <div style="background-color: green;"> Nothing</div>
+            </div>
+
+        </section>
+
+        
+
+        </Section>
+    </main>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
