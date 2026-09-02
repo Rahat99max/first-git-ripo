@@ -76,7 +76,6 @@ body{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    margin: 100px;
 }
 section{
     text-align: center;
